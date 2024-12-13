@@ -1,5 +1,4 @@
 # MemoryMatchingGame
-Mål: Finn alle matchende kortpar ved å snu to om gangen.
-Spill: Kortene er ordnet med forsiden ned i et rutenett. Spilleren klikker for å snu to kort. Hvis de matcher, forblir de med forsiden opp. Hvis ikke, vipper de ned igjen.
- Spillet avsluttes når alle parene er matchet.
-
+Objective: Find all matching pairs of cards by flipping two at a time.
+Gameplay: The cards are arranged face down in a grid. The player clicks to flip two cards. If they match, they remain face up. If not, they flip back down.
+The game ends when all pairs have been matched.
