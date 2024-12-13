@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Memory Matching Game</h1>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2>Introduction</h2>
+            <p>
+                Goal: Find all matching pairs of cards by flipping two at a time.<br>
+                Game: The cards are arranged face down in a grid.<br><br>
+                The player clicks to flip two cards.<br>If they match, they remain face up. If not, they flip back down.<br><br>
+                The game ends when all pairs have been matched.<br><br>
+                Good luck!
+            </p>
+            <button id="close-instructions">Understand!</button>
+        </div>
+    </div>
+
+    <!-- Vanskelighetsgrad-->
+    <div id="difficulty-choice">
+        <h3>Choose difficulty</h3>
+        <button id="easy-btn">Easy</button>
+        <button id="medium-btn">Medium</button>
+        <button id="hard-btn">Hard</button>
+    </div>
+    
+    <!-- Spill brett -->
+    <div class="game-board" id="gameBoard" style="display:none;"></div>
+
+    <!-- Highscore -->
+    <div id="highscore-container">
+        <h2>Highscore</h2>
+        <ul id="highscore-list">
+            <!-- Highscore will be shown here -->
+        </ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
